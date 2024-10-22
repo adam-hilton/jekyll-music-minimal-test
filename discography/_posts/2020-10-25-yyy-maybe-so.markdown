@@ -1,8 +1,8 @@
 ---
 layout: post
 title: YyY maybe so
-description: This is description of a post. It will appear in the page of it's category with the description or excerpt shown. Clicking each of them will redirect to the page of the post, the same with clicking "Read More"
-image: assets/img/YyY-Cover.png
+description: hello this is post description
+image: assets/img/zt-linkedin2.jpg
 type: LP
 play:
     - name: YouTube
