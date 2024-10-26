@@ -3,15 +3,15 @@ menu_pages:
   url: /
   category: home
 
+- title: Projects
+  url: /projects/
+  category: projects
+  tooltip: projects tooltip
+
 - title: Discography
   url: /discography/
   category: discography
   tooltip: Discography tooltip
-
-- title: Collaborations
-  url: /collaborations/
-  category: collaborations
-  tooltip: Collaborations tooltip
 
 - title: About
   url: about.html
