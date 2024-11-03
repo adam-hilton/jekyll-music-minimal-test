@@ -28,6 +28,7 @@
                     {{ include.currPost.title }}
                 </h2>
             </a>
+            {% include discography-entry-metadata.html currPost=include.currPost %}
             <p class="discography-album_summary">
                 {% if include.currPost.description %}
                 {{ include.currPost.description }}
@@ -35,7 +36,7 @@
                 {{ include.currPost.excerpt | strip_html }}
                 {% endif %}
             </p>
-            {% include discography-entry-metadata.html currPost=include.currPost %}
+            <!-- {% include discography-entry-metadata.html currPost=include.currPost %} -->
         </section>
     {% include read-more.html currPost=include.currPost %}
 </article>
